@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(135deg, grey, white ) ;background-position-x: center; font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, grey, black) ;background-position-x: center; font-family: Arial, Helvetica, sans-serif;
 
 }
 .div1{
@@ -34,6 +34,7 @@ body{
     display: block;
 }
 .zaglav{
+    border: 2px solid black;
     border-radius: 10%;
     margin: 1px 30%;
      width: 500px;
@@ -42,4 +43,20 @@ body{
        text-align: center ; 
        font-size: 50px ;
        color: whitesmoke
+}
+.berserk{
+overflow: hidden;
+    width: 600px;
+height: 17px;
+background-color: black;
+color: white;
+margin-top: 10%;
+border: 2px solid white;
+text-align: center;
+margin-left: 25%;
+
+}
+.berserk:hover{
+height: 100%;
+cursor: pointer;
 }
