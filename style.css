@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(135deg, grey, white ) ;background-position-x: center; font-family: Arial, Helvetica, sans-serif;
+
+}
+.div1{
+    transition-duration: 3s;
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+    font-size: 24px;
+    float:left;
+    overflow: hidden;
+}
+.div1:hover{
+    transition-duration: 3s;
+    font-weight: 400;
+    height: auto;
+    float: none;
+    border-radius: 25%;
+    width: 40%;
+    color: white;
+    cursor:pointer;
+}
+.div1 img{
+    width: 100%;
+}
+.div1 div{
+    display: none;
+}
+.div1:hover div{
+    display: block;
+}
+.zaglav{
+    border-radius: 10%;
+    margin: 1px 30%;
+     width: 500px;
+      background:gray; 
+      padding: 5px;
+       text-align: center ; 
+       font-size: 50px ;
+       color: whitesmoke
+}
