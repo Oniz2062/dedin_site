@@ -77,7 +77,7 @@ else{
 stroka = kotikilisobachka + ", " + poroda + ", " + klichka + ", " + god + ", " + chislo;
 console.log(stroka)
 //выбор
-if(i==1){
+if(i==10){
 vbl6or = confirm("Желаете продолжить?")
 }
 if (vbl6or == false){
