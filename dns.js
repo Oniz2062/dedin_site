@@ -4,7 +4,7 @@ let pricelist2 = [];
 let imglist = [];
 let hreflist1 = [];
 let give_items = () => {
-    //give namelist
+    //дадим название
     let namelist = document.querySelectorAll(".catalog-product__name");
     for (let i = 0; i < namelist.length; i++) {
         namelist2[i] = namelist[i].innerHTML.split('>')[1].split('<')[0].split('[')[0].split('//')[0];
@@ -12,7 +12,7 @@ let give_items = () => {
     }
     console.log(namelist2)
     console.log(conflist)
-    //give price
+    //дадим цену
     let pricelist = document.querySelectorAll(".product-buy__price");
      for (let i = 0; i < pricelist.length; i++) {
         pricelist2[i] = pricelist[i].innerHTML.split('<')[0];
