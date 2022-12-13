@@ -15,11 +15,14 @@
             else{
             let b = +prompt("Введите b:");
             let c = +prompt("Введите c:");
-            let d = (b*b)-(4*a*c);          
+            let d = (b*b)-(4*a*c); 
+            if ( d<0 ) {alert("квадратных корней не существует")}
+            else{         
             let x1 = (-b + Math.sqrt(d)) / (2 * a);
             let x2 = (-b - Math.sqrt(d)) / (2 * a);
             alert("первый  корень: " + x1);
             alert("второй корень: " + x2)}
+            }
         </script>
     </head>
     <body>
