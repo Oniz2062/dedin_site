@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-image: url(gifs/Космос.gif) ;background-position-x: center;background-attachment: fixed; font-family: Arial, Helvetica, sans-serif;
 
@@ -60,4 +61,68 @@ cursor: pointer;
     width: 160px;
     height: auto;
      text-align: center;
+=======
+body{
+    background-image: url(gifs/Космос.gif) ;background-position-x: center;background-attachment: fixed; font-family: Arial, Helvetica, sans-serif;
+
+}
+.col {
+    transition-duration: 3s;
+    height: 50px;
+    background-color: black;
+    margin: 1px;
+    text-align: center;
+    font-size: 24px;
+    overflow: hidden;
+}
+.col:hover{
+    transition-duration: 3s;
+    font-weight: 400;
+    height: auto;
+    float: none;
+    border-radius: 25%;
+    color: white;
+    cursor:pointer;
+}
+.col img{
+    width: 100%;
+}
+.col div{
+    display: none;
+}
+.col:hover div{
+    display: block;
+}
+.berserk{
+overflow: scroll;
+    width: 600px;
+height: 40px;
+background-color: black;
+color: white;
+margin-top: 10%;
+border: 2px solid white;
+text-align: center;
+margin-left: 25%;
+font-size: 20px;
+}
+.berserk:hover{
+height: 300px;
+cursor: pointer;
+}
+.nick{
+    color: white;
+    background: grey;
+    margin: auto 0 ;
+    width: auto;
+    border: 2px solid black;
+}
+.zxc{
+    color: white;
+    overflow:hidden;
+    background:  black;
+    padding: 5px;
+    width: 160px;
+    height: auto;
+     text-align: center;
+>>>>>>> 578a50238f5149a476ada46d7bb8fbd22b9a2a1b
 }

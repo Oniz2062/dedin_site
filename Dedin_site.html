@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
     <head>
@@ -45,4 +46,53 @@
             <div style="height:400px;"></div>
        </div>
         </body>
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="icon" href="jpgs/favicon.ico" type="image/x-icon">
+        <title>dedin_site</title>
+        <script>
+            alert("Есть квадратное уравнение a(x^2)+bx+c, введите a, b, c для работы программы по нахождению кв. корней уравнения")
+            let a = +prompt("Введите а:");
+            if (a == 0) {alert("кв уравнения не существует")}
+            else{
+            let b = +prompt("Введите b:");
+            let c = +prompt("Введите c:");
+            let d = (b*b)-(4*a*c); 
+            if ( d<0 ) {alert("квадратных корней не существует")}
+            else{         
+            let x1 = (-b + Math.sqrt(d)) / (2 * a);
+            let x2 = (-b - Math.sqrt(d)) / (2 * a);
+            alert("первый  корень: " + x1);
+            alert("второй корень: " + x2)}
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+    <div>
+        <div class="zxc"><img src="gifs/zxc.gif"> его идеи <br>будут всегда актуальны</br></div>
+        <div style="border: 10px solid black;display: inline-block; Color: white; background: linear-gradient(180deg, grey,black ); font-size: 60px;">Главная страница самого крутого на свете сайта </div> 
+    </div>
+            <h2 class="nick">Сделал Карпунин Иван</h2>
+            <div class="row">
+                <div class="col s12 m12 l3 xl3"><div>После мат. анала</div><img src="jpgs/Kaneki.jpg"></div>
+                <div class="col s12 m12 l3 xl3"><div>Смешная собака</div><img src="jpgs/SSobaka.jpg"></div>
+                <div class="col s12 m12 l3 xl3"><div>Мудрое дерево</div><img src="jpgs/mudroe.jpg"></div>
+            <div class="berserk"> "Что вершит судьбу человечества в этом мире? 
+            <p>Некое незримое существо или закон, подобно Длани Господней парящей над миром?</p>
+            <p>По крайне мере истинно то, что человек не властен даже над своей волей." - Кэнтаро Миура </p>
+            <div style=" border: 1px solid white ; margin-left: 2px;margin-right:82% ;"><img src="jpgs/guts.jpg" width="103" height="120"></div>
+            <div style="background-color: black; width: 400 px ;"><img src="gifs/rayan hlopia.gif"><p>приятного аппетита</p></div>
+            </div>
+            <div style="height:400px;"></div>
+       </div>
+        </body>
+>>>>>>> 578a50238f5149a476ada46d7bb8fbd22b9a2a1b
 </html>
